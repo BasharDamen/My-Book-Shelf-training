@@ -1,0 +1,14 @@
+
+
+table{
+    border: solid 2px gray;
+    width: 50%;
+}
+
+tr{
+    height: 10px;
+}
+td{
+    border: gray 2px solid;
+    height: 10px;
+}
