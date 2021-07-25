@@ -136,7 +136,7 @@ function makeFooter(){
     let footerRow = document.createElement('tr');
     table.appendChild(footerRow);
 
-    let tdTotalTitle = document.createElement('td');
+    let tdTotalTitle = document.createElement('th');
     footerRow.appendChild(tdTotalTitle);
     tdTotalTitle.textContent = 'Total Pages To Read';
 
@@ -145,7 +145,7 @@ function makeFooter(){
         
     }
 
-    let tdTotal = document.createElement('td');
+    let tdTotal = document.createElement('th');
     footerRow.appendChild(tdTotal);
     tdTotal.textContent = totalPages;
 
